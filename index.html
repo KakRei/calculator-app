@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-contaienr">
+            <input type="text" id="num1">
+            <input type="text" id="num2">
+        </div>
+        <div class="operator-container">
+            <button class="operator" id="addition" onclick="add()">+</button>
+            <button class="operator" id="subtraction" onclick="sub()">-</button>
+            <button class="operator" id="multiplication" onclick="multi()">x</button>
+            <button class="operator" id="division" onclick="divi()">/</button>
+        </div>
+        <span class="result" id="result"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
